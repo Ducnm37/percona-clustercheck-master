@@ -30,7 +30,7 @@ if [ -e "/var/tmp/clustercheck.disabled" ]; then
 fi
 
 MYSQL_USERNAME="${1-clustercheckuser}"
-MYSQL_PASSWORD="${2-clustercheckpassword!}"
+MYSQL_PASSWORD="${2-ducnm37}"
 AVAILABLE_WHEN_DONOR=${3:-0}
 ERR_FILE="${4:-/dev/null}"
 AVAILABLE_WHEN_READONLY=${5:-1}
